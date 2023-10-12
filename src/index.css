@@ -1,0 +1,100 @@
+body {
+ 
+  background-image: url("https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg?w=2000");
+  /* background-image: url("https://nodens.eu/wp-content/uploads/2019/10/AdobeStock_281967200.jpeg"); */
+  /* background-image: url("https://img.freepik.com/premium-vector/medical-background-healthcare-technology-with-flat-icons-symbols-design-template-concept-idea-health-care-business-innovation-medicine-health-safety-science-vector-illustration_120542-1239.jpg?w=2000"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 50px; */
+  
+}
+
+.container-fluid a:hover {
+  color: #31e637;
+
+}
+
+
+
+.container_auth {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 150px;
+  z-index:1 ;
+}
+
+.container_auth  form_input {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  
+
+}
+
+.container_auth  .form_div {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-Shadow:0px 5px 8px rgb(79, 79, 79)
+}
+
+.container_auth  label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container_auth  input[type="text"],
+.container_auth  input[type="password"] {
+  width: 300px;
+  /* padding: 9px; */
+  /* margin-bottom: 15px; */
+  border: 1px solid #878787;
+  border-radius: 4px;
+}
+
+.container_auth  input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 8px;
+  width: 300px;
+}
+
+.container_auth  .switch-form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gradient-overlay{
+  background: linear-gradient(to bottom right, rgb(226, 57, 57), rgb(19, 19, 247));
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: 550px;
+  opacity: .5;
+
+}
+
+.container_edit {
+  display:flex; 
+  flex-Direction:column; 
+  align-Items:center;
+  box-shadow: 0px 5px 8px rgb(47, 50, 50);
+  border: 1px solid #b5b4b4;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 30px;
+}
